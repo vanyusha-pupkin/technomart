@@ -1,0 +1,76 @@
+
+/* ------------------------- connection og fonts ----------------------- */
+
+
+
+/* --------------------------- common styles --------------------------- */
+
+@charset "utf-8";
+
+html, body {
+	padding: 0;
+	margin: 0;
+
+	min-width: ---px;
+
+	font-weight: ---;
+	font-size: --px;
+	line-height: --px;
+	font-family: "------", "Arial", sans-serif;
+	color: #fff;
+
+	background: #fff url("../img/------") no-repeat center top;
+}
+
+.container {
+	width: ---px;
+	padding: 0 --px;
+	margin: 0 auto;
+}
+
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.visually-hidding {
+	display: none;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.btn {
+
+}
+
+.btn:hover,
+.btn:active {
+	
+}
+
+.btn.disabled:hover,
+.btn:disabled:hover {
+
+}
+
+.btn.disabled,
+.btn:disabled {
+
+}
+
+/* --------------------------- header styles --------------------------- */
+
+
+/* --------------------------- index styles ---------------------------- */
+
+
+/* --------------------------- footer styles --------------------------- */
+
+
+/* --------------------------- modal windows --------------------------- */
+
