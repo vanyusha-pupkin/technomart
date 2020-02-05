@@ -1,7 +1,14 @@
+@charset "utf-8";
 
 /* ------------------------- connection og fonts ----------------------- */
 
-
+@font-face {
+	font-family: "symbols-technomart";
+	src:	url("../fonts/symbols-technomart.woff") format("woff"),
+			url("../fonts/symbols-technomart.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;       
+}
 
 /* --------------------------- common styles --------------------------- */
 
@@ -11,20 +18,26 @@ html, body {
 	padding: 0;
 	margin: 0;
 
-	min-width: ---px;
+/*	min-width: ---px;*/
 
-	font-weight: ---;
-	font-size: --px;
-	line-height: --px;
-	font-family: "------", "Arial", sans-serif;
-	color: #fff;
+	font-family: "Cuprum", "Arial", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
 
-	background: #fff url("../img/------") no-repeat center top;
+	color: #000;
+
+	background: #fff;
 }
 
+/*
+font-family: 'Cuprum', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+*/
+
 .container {
-	width: ---px;
-	padding: 0 --px;
+	max-width: 940px;
+	padding: 0 10px;
 	margin: 0 auto;
 }
 
@@ -64,6 +77,173 @@ img{
 }
 
 /* --------------------------- header styles --------------------------- */
+
+.main-header {
+	padding-bottom: 60px;
+
+	background-color: #f1f5f7;
+}
+
+.main-header .top {
+	max-height: 42px;
+	background-color: #293449;
+}
+
+.main-header .top:hover {
+	max-height: 42px;
+	background-color: #212a3a;
+}
+
+.main-header .top .logo {
+	float: left;
+}
+
+	.main-header .top .logo a {
+		display: inline-block;
+		padding: 9px 52px;
+		border-bottom: 5px solid #b52933;
+
+		font-size: 24px;
+		line-height: 24px;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: #fff;
+		text-decoration: none;
+
+		background-color: #ee3643;
+	}
+
+	.main-header .top .logo a:hover {
+		background-color: #ca2c37;
+	}
+
+	.main-header .top .logo a:active{
+		background-color: #ba2732;
+	}	
+
+.main-header .top .form-search {
+	position: relative;
+	float: left;
+}
+
+	.main-header .top .form-search input[type="search"] {
+		border: none;
+		padding: 12px 0;
+		padding-left: 49px;
+
+		min-width: 270px;
+
+		font-size: 17px;
+		color: #fff;
+
+		background-color: transparent;
+	}
+
+	.main-header .top .form-search input[type="search"]::placeholder {
+		color: #fff;
+	}	
+
+	.main-header .top .form-search .icon-search::before {
+		content: "\1f50d";
+		position: absolute;
+		left: 18px;
+		top: 50%;
+		transform: translateY(-50%);
+		
+		font-family: "symbols-technomart";
+		font-size: 17px;
+		color: rgba(255, 255, 255, 0.3);
+	}
+
+	.main-header .top .form-search:hover::before {
+		color: rgba(255, 255, 255, 1);
+	}	
+
+
+	.main-header .top .form-search input[type="search"]:focus {
+		color: #000;
+
+		background-color: #fff;
+	}
+
+	.main-header .top .form-search input[type="search"]:focus + .icon-search::before {
+		color: #ee3643;	
+	}	
+
+
+.main-header .top a {
+	box-sizing: border-box;
+	position: relative;
+
+	display: inline-block;
+	min-width: 150px;
+	padding: 12px 0;
+
+	font-size: 17px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}	
+
+.main-header .top .bookmark {
+	float: left;
+	text-align: left;
+	padding-left: 50px;
+}	
+
+	.main-header .top .bookmark::before  {
+		content: "\1f516";
+		position: absolute;
+		left: 15px;
+		
+		font-family: "symbols-technomart";
+		font-size: 17px;
+		color: rgba(255, 255, 255, 0.3);
+	}
+
+	.main-header .top .bookmark:hover::before  {
+		color: rgba(255, 255, 255, 1);
+	}	
+
+.main-header .top .basket {
+	float: left;
+	text-align: left;
+	padding-left: 50px;
+}	
+
+	.main-header .top .bookmark:active  {
+		color: rgba(255, 255, 255, 0.6);
+	}
+
+	.main-header .top .basket::before {
+		content: "\62";
+		position: absolute;
+		left: 15px;
+
+		font-family: "symbols-technomart";
+		font-size: 17px;
+		color: rgba(255, 255, 255, 0.3);
+	}	
+
+	.main-header .top .basket:hover::before {
+		color: rgba(255, 255, 255, 1);
+	}	
+
+	.main-header .top .basket:active {
+		color: rgba(255, 255, 255, 0.6);
+	}	
+
+
+
+.main-header .top .btn-сheckout {
+	float: right;
+
+	background-color: #63a63e;
+}	
+
+	.main-header .top .btn-сheckout:active {
+		color: rgba(255, 255, 255, 0.51);
+	}	
 
 
 /* --------------------------- index styles ---------------------------- */
