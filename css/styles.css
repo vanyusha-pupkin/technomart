@@ -89,10 +89,10 @@ img{
 	background-color: #293449;
 }
 
-.main-header .top:hover {
-	max-height: 42px;
-	background-color: #212a3a;
-}
+	.main-header .top:hover {
+		max-height: 42px;
+		background-color: #212a3a;
+	}
 
 .main-header .top .logo {
 	float: left;
@@ -206,15 +206,19 @@ img{
 		color: rgba(255, 255, 255, 1);
 	}	
 
+	.main-header .top .bookmark:active::before  {
+		color: rgba(255, 255, 255, 0.5);
+	}	
+
+	.main-header .top .bookmark:active  {
+		color: rgba(255, 255, 255, 0.6);
+	}	
+
 .main-header .top .basket {
 	float: left;
 	text-align: left;
 	padding-left: 50px;
 }	
-
-	.main-header .top .bookmark:active  {
-		color: rgba(255, 255, 255, 0.6);
-	}
 
 	.main-header .top .basket::before {
 		content: "\62";
@@ -230,6 +234,10 @@ img{
 		color: rgba(255, 255, 255, 1);
 	}	
 
+	.main-header .top .basket:active::before {
+		color: rgba(255, 255, 255, 0.5);
+	}	
+
 	.main-header .top .basket:active {
 		color: rgba(255, 255, 255, 0.6);
 	}	
@@ -241,9 +249,153 @@ img{
 }	
 
 	.main-header .top .btn-сheckout:active {
-		color: rgba(255, 255, 255, 0.51);
+		color: rgba(255, 255, 255, 0.50);
 	}	
 
+.main-header .center {
+	padding: 45px 0;
+}
+
+.main-header .center .promo {
+	float: left;
+	max-width: 198px;
+	margin: 0;
+	padding-left: 50px;
+	padding-top: 5px;
+
+	font-size: 16px;
+	line-height: 23px;
+	font-style: italic;
+	color: #ee3643;
+}
+
+.main-header .center .contacts {
+	float: left;
+	min-width: 270px;
+	margin: 0 70px;
+}
+
+	.main-header .center .contacts .phone {
+		position: relative;
+		border: 3px solid #fff;
+		margin: 0;
+		padding: 10px 0;
+		padding-left: 35px;
+		margin-bottom: 10px;
+
+		font-size: 21px;
+		line-height: 18px;
+		color: #e9292a;
+		text-align: center;	
+	}
+
+	.main-header .center .contacts .phone::before {
+		content: "\1f4de";
+
+		position: absolute;
+		left: 15px;
+
+		font-family: "symbols-technomart";
+		font-size: 22px;
+		color: #b7bfc8;
+	}
+
+	.main-header .center .contacts .address {
+		margin: 0;
+		padding: 0;
+
+		text-align: center;
+		font-size: 14px;
+		line-height: 18px;
+		color: #32425c;
+	}
+
+.main-header .center .user-block {
+	float: right;
+}
+
+	.main-header .center .user-block .btn-white {
+		display: inline-block;
+		padding: 14px 25px;
+
+		font-size: 21px;
+		line-height: 18px;
+		text-decoration: none;
+		color: #000;
+		
+		background-color: #fff;
+	}
+
+	.main-header .center .user-block .btn-white:hover {
+		color: #ee3643;
+	}
+
+	.main-header .center .user-block .btn-white:active {
+		color: rgba(0, 0, 0, 0.3);
+	}	
+
+	.main-header .center .user-block .auth {
+		position: relative;
+		padding-left: 48px;
+		margin-right: 5px;
+	}
+
+	.main-header .center .user-block .auth::before {
+		content: "\2386";
+
+		position: absolute;
+		left: 15px;
+
+		font-family: "symbols-technomart";
+		font-size: 22px;
+		color: #b7bfc8;
+	}
+
+	.main-header .center .user-block .auth:hover::before {
+		color: #32425c;
+	}
+
+	.main-header .center .user-block .auth:active::before {
+		color: #c5c5c5;
+	}
+
+.main-nav {
+
+}
+
+	.main-nav ul {
+		margin: 0;
+		padding: 0 5px;
+		border-bottom: 5px solid #293449;
+
+		list-style: none;
+		font-size: 0;
+
+		background-color: #32425c;
+	}	
+
+	.main-nav ul li {
+		display: inline-block;
+
+	}
+
+	.main-nav ul li a {
+		display: inline-block;
+		padding: 20px 33px;
+		
+		font-size: 17px;
+		line-height: 17px;
+		text-decoration: none;
+		color: #fff;
+	}
+
+	.main-nav ul li a:hover {
+		background-color: #293449;
+	}
+
+	.main-nav ul li a:active {
+		color: rgba(255, 255, 255, 0.50);
+	}	
 
 /* --------------------------- index styles ---------------------------- */
 
