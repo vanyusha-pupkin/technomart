@@ -79,7 +79,7 @@ img{
 /* --------------------------- header styles --------------------------- */
 
 .main-header {
-	padding-bottom: 60px;
+	padding-bottom: 55px;
 
 	background-color: #f1f5f7;
 }
@@ -399,6 +399,187 @@ img{
 
 /* --------------------------- index styles ---------------------------- */
 
+.promo {
+	margin-top: 59px;
+	margin-bottom: 53px;
+}
+
+.promo ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.promo p {
+	margin: 0;
+	padding: 0;
+}
+
+.promo .catalogs {
+	margin-bottom: 20px;
+}
+
+.promo .card {
+	position: relative;
+	box-sizing: border-box;
+	
+	width: 300px;
+	height: 123px;
+	padding: 22px 25px;
+	margin-right: 20px;
+
+	overflow: hidden;
+}
+
+.promo .card:last-child {
+	margin-right: 0;
+}
+
+.promo .card .title {
+	margin-bottom: 10px;
+
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.promo .card .btn-catalogs {
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 10px 0;
+	border-radius: 3px;
+	width: 135px;
+	height: 38px;
+
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+
+	background-color: rgba(0,0,0,0.1);
+}
+
+.promo .card .btn-catalogs:hover {
+	background-color: rgba(0,0,0,0.2);
+}
+
+.promo .card .btn-catalogs:active {
+	background-color: rgba(0,0,0,0.3);
+}
+
+.promo .card img {
+	position: absolute;
+	right: 43px;
+	top: 31px;
+}
+
+.promo .card .new {
+	position: absolute;
+	top: 6px;
+	right: -23px;
+
+	width: 90px;
+	height: 22px;
+	padding-top: 4px;
+
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-align: center;
+	font-size: 16px;
+	line-height: 18px;
+	color: #fff;
+
+	transform: rotate(45deg);
+
+	background-color: #ee3643;
+}
+
+.promo .materials {
+	float: left;
+	background-color: #f6b22d;
+}
+
+.promo .tools {
+	float: left;
+	background-color: #4aafde;
+}
+
+.promo .catalogs .equipment {
+	float: left;
+	background-color: #cc79d1;
+}
+
+
+.promo .bottom .slider {
+	float: left;
+
+	width: 620px;
+	height: 266px;
+
+	margin-right: 20px;
+}
+
+.promo .bottom .slider .slide {
+	position: relative;
+
+	height: 266px;
+	padding: 0 25px;
+	padding-top: 27px;
+	padding-bottom: 22px;
+
+
+	background: url(../img/slide-1.jpg) no-repeat top left;
+}
+
+.promo .bottom .slider .slide .title {
+	margin-bottom: 10px;
+
+	font-size: 36px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.promo .bottom .slider .slide .subtitle {
+	margin-bottom: 115px;
+
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #fff;
+}
+
+.promo .bottom .slider .slide .btn-slide {
+	display: inline-block;
+	padding: 10px 48px;
+	border-radius: 3px;
+
+	font-size: 14px;
+	line-height: 18px;
+	text-decoration: none;
+	color: #fff;
+
+	background-color: #ee3643;
+}
+
+.promo .bottom .slider .slide .btn-slide:hover {
+	background-color: #ca2c37;
+}
+
+.promo .bottom .slider .slide .btn-slide:active {
+	background-color: #ba2732;
+}
+
+.promo .discounts {
+	background-color: #85d179;
+	margin-bottom: 20px;
+}
+
+.promo .delivery {
+	background-color: #f6b22d;
+}
 
 /* --------------------------- footer styles --------------------------- */
 
