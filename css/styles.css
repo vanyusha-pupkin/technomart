@@ -666,6 +666,141 @@ img{
 	background-color: #f6b22d;
 }
 
+.popular-goods {
+	margin-bottom: 21px;
+}
+.popular-goods .header {
+	margin-bottom: 20px;
+
+	padding: 25px 0;
+	padding-left: 28px;
+	padding-right: 24px;
+
+	background-color: #f7f3ec;
+}
+.popular-goods .header .title {
+	float: left;
+	margin: 0;
+	margin-top: 6px;
+
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #32425c;
+}
+
+.popular-goods .header .btn-popular-goods {
+	display: inline-block;
+	float: right;
+
+	min-width: 253px;
+	border-radius: 3px;
+	padding: 10px 0;
+
+	text-align: center;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+
+	background-color: #ee3643;
+}
+
+.popular-goods .list .item {
+	float: left;
+
+	width: 218px;
+	margin-right: 20px;
+	padding-bottom: 21px;
+	border: 1px solid #e5e5e5;
+}
+
+.popular-goods .list .item:last-child {
+	margin-right: 0;
+}
+
+.popular-goods .list .item img {
+	margin-bottom: 7px;
+}
+
+.popular-goods .list .item .name {
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 0 15px;
+
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 700;
+
+}
+
+.popular-goods .list .item .price_old {
+	margin: 0;
+	margin-bottom: 12px;
+	padding: 0 15px;
+
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	font-size: 17px;
+	line-height: 18px;
+	font-weight: 700;
+	text-decoration: line-through;
+	color: #999999;
+}
+
+.popular-goods .list .item .price {
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	margin-left: 40px;
+	margin-right: 35px;
+	padding: 10px 0;
+	padding-left: 35px;
+	padding-right: 39px;
+	border-radius: 3px;
+
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	font-size: 17px;
+	line-height: 18px;
+	font-weight: 700;
+
+	background-color: #ee3643;
+}
+
+.popular-goods .list .item .price::before,
+.popular-goods .list .item .price::after {
+	content: "";
+
+	position: absolute;
+	z-index: 10;
+	width: 40px;
+	height: 15px;
+
+	background-color: #fff;
+}
+
+.popular-goods .list .item .price::before {
+	content: "";
+	
+	top: -5px;
+	right: -14px;
+	transform: rotate(45deg);
+}
+
+.popular-goods .list .item .price::after {
+	content: "";
+	
+	bottom: -5px;
+	right: -14px;
+	transform: rotate(-45deg);
+}
+
+
+
 /* --------------------------- footer styles --------------------------- */
 
 
