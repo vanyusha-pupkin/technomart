@@ -513,6 +513,7 @@ img{
 
 
 .promo .bottom .slider {
+	position: relative;
 	float: left;
 
 	width: 620px;
@@ -520,6 +521,90 @@ img{
 
 	margin-right: 20px;
 }
+
+.promo .bottom .slider .left,
+.promo .bottom .slider .right  {
+	position: absolute;
+	z-index: 10;
+	
+	border: 0px ;
+
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.promo .bottom .slider .left {
+	left: 25px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.promo .bottom .slider .left:after {
+	content: "\3c";
+
+	font-family: "symbols-technomart";
+	font-size: 45px;
+	color: #fff;
+}
+
+.promo .bottom .slider .right {
+	right: 25px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.promo .bottom .slider .right:after {
+	content: "\3e";
+
+	font-family: "symbols-technomart";
+	font-size: 45px;
+	color: #fff;
+}
+
+.promo .bottom .slider .dots {
+	position: absolute;
+	
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 36px;
+}
+
+.promo .bottom .slider .dot {
+	position: relative;
+
+	width: 11px;
+	height: 11px;
+
+	margin-right: 10px;
+	border: 0;
+	border-radius: 50%;
+
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.promo .bottom .slider .current:before {
+	content: "";
+	
+	position: absolute;
+
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	width: 6px;
+	height: 6px;
+
+	border-radius: 50%;
+
+	background-color: #ee3643;
+}
+
+
+.promo .bottom .slider .dot:last-child {
+	margin-right: 0;
+}
+
 
 .promo .bottom .slider .slide {
 	position: relative;
