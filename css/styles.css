@@ -799,6 +799,61 @@ img{
 	transform: rotate(-45deg);
 }
 
+.popular-manufacturer {
+	margin-bottom: 85px;
+}
+
+.popular-manufacturer .header {
+	margin-bottom: 20px;
+
+	padding: 25px 0;
+	padding-left: 28px;
+	padding-right: 24px;
+
+	background-color: #f7f3ec;
+}
+
+.popular-manufacturer .header .tittle {
+	float: left;
+	margin: 0;
+	margin-top: 6px;
+
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #32425c;
+}
+.popular-manufacturer .header .btn-popular-manufacturer {
+	display: inline-block;
+	float: right;
+
+	min-width: 253px;
+	border-radius: 3px;
+	padding: 10px 0;
+
+	text-align: center;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+
+	background-color: #ee3643;
+}
+
+.popular-manufacturer .list .item {
+	float: left;
+
+	width: 218px;
+	height: 143px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #e5e5e5;
+}
+
+.popular-manufacturer .list .item:nth-child(4n) {
+	margin-right: 0;
+}
 
 
 /* --------------------------- footer styles --------------------------- */
