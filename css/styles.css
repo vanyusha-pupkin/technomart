@@ -724,6 +724,8 @@ img{
 	margin-right: 20px;
 	padding-bottom: 21px;
 	border: 1px solid #e5e5e5;
+
+	overflow: hidden;
 }
 
 .popular-goods .list .item:hover {
@@ -887,6 +889,27 @@ img{
 	right: -14px;
 	transform: rotate(-45deg);
 }
+
+.popular-goods .list .item .new {
+	position: absolute;
+	top: 6px;
+	right: -23px;
+
+	width: 90px;
+	height: 22px;
+	padding-top: 4px;
+
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-align: center;
+	font-size: 16px;
+	line-height: 18px;
+	color: #fff;
+
+	transform: rotate(45deg);
+
+	background-color: #ee3643;
+}
+
 
 .popular-manufacturer {
 	margin-bottom: 65px;
